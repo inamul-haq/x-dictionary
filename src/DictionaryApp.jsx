@@ -27,7 +27,7 @@ function App() {
           onChange={(e) => setSearchTerm(e.target.value)} 
         />
         <button onClick={handleSearch}>Search</button>
-        <h4>Defintion:</h4>
+        <h4>Definition:</h4>
       </div>
       <div>
         <p>{searchResult}</p>
